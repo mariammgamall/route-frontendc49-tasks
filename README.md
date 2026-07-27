@@ -6,8 +6,6 @@
   [![Route IT Training Center](https://img.shields.io/badge/Route-Frontend_Diploma_C49-007ACC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/mariammgamall/route-frontendc49-tasks)
   [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
   [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
-  [![Status](https://img.shields.io/badge/Status-Active_Development-brightgreen?style=for-the-badge)](#)
-  [![License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](#)
 
   <br />
 
@@ -28,11 +26,11 @@ Welcome to the official web development projects repository for the **Route IT T
 
 ## 📂 Projects Directory & Showcase
 
-| # | Task / Project | Highlights & Features | Tech Stack | Status | Code Folder | Live Demo |
-|---|---|---|---|---|---|---|
-| **01** | 👤 **Task 1: Personal Portfolio** | Semantic portfolio detailing technical stack, internships, EF SET C2 language certification, and multi-input contact inquiry forms. | `HTML5` `Forms` `Tables` | `Completed` | [📁 View Task 1](./Task%201-personal-portfolio-html) | — |
-| **02** | 🏋️ **Task 2: FitCore Gym Landing Page** | Modern fitness landing page with glassmorphism, membership tier forms, trainer showcases, and member reviews. | `HTML5` `CSS3` `Flexbox` | `Completed` | [📁 View Task 2](./Task%202-fitcore-gym-landing-page) | [🚀 Live Demo](https://fitcore-gym-landing-page.vercel.app/) |
-| **03** | 🛸 **Task 3: Drone Product Landing Page** | High-converting dark-themed product landing page for DJI Mavic 4 Pro featuring product comparison matrices, review rating bars, and accessory cards. | `HTML5` `CSS3` `Grid` `Flexbox` | `Completed` | [📁 View Task 3](./Task%203-drone-product-landing-page) | [🚀 Live Demo](https://mariam-drone-product-landing-page.vercel.app/) |
+| # | Task / Project | Highlights & Features | Tech Stack | Code Folder | Live Demo |
+|---|---|---|---|---|---|
+| **01** | 👤 **Task 1: Personal Portfolio** | Semantic portfolio detailing technical stack, internships, EF SET C2 language certification, and multi-input contact inquiry forms. | `HTML5` `Forms` `Tables` | [📁 View Task 1](./Task%201-personal-portfolio-html) | — |
+| **02** | 🏋️ **Task 2: FitCore Gym Landing Page** | Modern fitness landing page with glassmorphism, membership tier forms, trainer showcases, and member reviews. | `HTML5` `CSS3` `Flexbox` | [📁 View Task 2](./Task%202-fitcore-gym-landing-page) | [🚀 Live Demo](https://fitcore-gym-landing-page.vercel.app/) |
+| **03** | 🛸 **Task 3: Drone Product Landing Page** | High-converting dark-themed product landing page for DJI Mavic 4 Pro featuring product comparison matrices, review rating bars, and accessory cards. | `HTML5` `CSS3` `Grid` `Flexbox` | [📁 View Task 3](./Task%203-drone-product-landing-page) | [🚀 Live Demo](https://mariam-drone-product-landing-page.vercel.app/) |
 
 ---
 
