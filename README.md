@@ -10,6 +10,7 @@ Welcome to the official tasks repository for the **Route IT Training Center - Fr
 |---|---|---|---|---|---|
 | 01 | **Task 1: Personal Portfolio** | Personal Portfolio Website using Semantic HTML & CSS | `HTML5`, `CSS3` | Completed | [View Task 1](./Task%201-personal-portfolio-html) |
 | 02 | **Task 2: FitCore Gym Landing Page** | FitCore Gym Landing Page Website using Semantic HTML & CSS | `HTML5`, `CSS3` | Completed | [View Task 2](./Task%202-fitcore-gym-landing-page) |
+| 03 | **Task 3: Drone Product Landing Page** | DJI Mavic 4 Pro Drone Product Landing Page Website using Semantic HTML & CSS | `HTML5`, `CSS3` | Completed | [View Task 3](./Task%203-drone-product-landing-page) |
 
 ---
 
