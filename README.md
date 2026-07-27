@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>🚀 Route Frontend Diploma (C49) - Tasks & Projects</h1>
+  <h1>🚀 Route Frontend Diploma (C49) - Tasks</h1>
   <p><b>A showcase of modern, responsive, and high-performance web development projects built during the Route IT Training Center Frontend Diploma (C49).</b></p>
 
   [![Route IT Training Center](https://img.shields.io/badge/Route-Frontend_Diploma_C49-007ACC?style=for-the-badge&logo=googlechrome&logoColor=white)](https://github.com/mariammgamall/route-frontendc49-tasks)
@@ -74,6 +74,3 @@ Welcome to the official web development projects repository for the **Route IT T
 
 ---
 
-<div align="center">
-  <sub>Built with ❤️ by <b>Mariam Gamal</b> • Route IT Training Center Frontend Diploma (C49)</sub>
-</div>
