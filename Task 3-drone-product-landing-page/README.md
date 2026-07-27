@@ -8,7 +8,7 @@
 A modern, responsive, and high-converting product landing page designed for the **DJI Mavic 4 Pro** drone. Built with pure HTML5 & CSS3, featuring a dark sleek theme, interactive comparison matrix, rating breakdowns, related accessory cards, and payment options.
 
 🔗 **GitHub Repository:** [https://github.com/mariammgamall/route-frontendc49-tasks](https://github.com/mariammgamall/route-frontendc49-tasks)  
-🚀 **Live Demo:** [https://drone-product-landing-page.vercel.app/](https://drone-product-landing-page.vercel.app/)
+🚀 **Live Demo:** [https://mariam-drone-product-landing-page.vercel.app/](https://mariam-drone-product-landing-page.vercel.app/)
 
 ---
 
