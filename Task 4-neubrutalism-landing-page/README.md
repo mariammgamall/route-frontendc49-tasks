@@ -10,7 +10,7 @@
 > **Modern Neubrutalist Blog Landing Page**  
 > Recreating **The UX Review** blog landing page using **pure HTML5** and **beginner vanilla CSS** in a bold, trendy **Neubrutalism** visual style with standard Flexbox layouts, position properties, and responsive media queries for mobile and tablet screens as part of the **Route IT Training Center** Frontend Diploma (C49).
 > 
-> 🌐 **Live Demo**: [https://the-ux-review-blog.vercel.app/](https://the-ux-review-blog.vercel.app/)  
+> 🌐 **Live Demo**: [https://neubrutalism-landing-page.vercel.app/](https://neubrutalism-landing-page.vercel.app/)  
 > 🔗 **GitHub Repository**: [https://github.com/mariammgamall/route-frontendc49-tasks](https://github.com/mariammgamall/route-frontendc49-tasks)
 
 ## 📸 Screenshots Showcase
