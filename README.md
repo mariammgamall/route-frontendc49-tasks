@@ -31,7 +31,7 @@ Welcome to the official web development projects repository for the **Route IT T
 | **01** | **Task 1: Personal Portfolio** | Semantic portfolio detailing technical stack, internships, EF SET C2 language certification, and multi-input contact inquiry forms. | `HTML5` `Forms` `Tables` | [View Task 1](./Task%201-personal-portfolio-html) | — |
 | **02** | **Task 2: FitCore Gym Landing Page** | Modern fitness landing page with glassmorphism, membership tier forms, trainer showcases, and member reviews. | `HTML5` `CSS3` `Flexbox` | [View Task 2](./Task%202-fitcore-gym-landing-page) | [Live Demo](https://fitcore-gym-landing-page.vercel.app/) |
 | **03** | **Task 3: Drone Product Landing Page** | High-converting dark-themed product landing page for DJI Mavic 4 Pro featuring product comparison matrices, review rating bars, and accessory cards. | `HTML5` `CSS3` `Grid` `Flexbox` | [View Task 3](./Task%203-drone-product-landing-page) | [Live Demo](https://mariam-drone-product-landing-page.vercel.app/) |
-| **04** | **Task 4: Neubrutalism Landing Page** | Bold, modern Neubrutalist blog landing page for The UX Review featuring hard offset box-shadows, pure CSS mobile navigation drawer, sticky sidebar, and author profiles. | `HTML5` `CSS3` `Flexbox` | [View Task 4](./Task%204-neubrutalism-landing-page) | [Live Demo](https://the-ux-review-blog.vercel.app/) |
+| **04** | **Task 4: Neubrutalism Landing Page** | Bold, modern Neubrutalist blog landing page for The UX Review featuring hard offset box-shadows, pure CSS mobile navigation drawer, sticky sidebar, and author profiles. | `HTML5` `CSS3` `Flexbox` | [View Task 4](./Task%204-neubrutalism-landing-page) | [Live Demo](https://neubrutalism-landing-page.vercel.app/) |
 
 ---
 
