@@ -27,14 +27,15 @@ Welcome to the official web development projects repository for the **Route IT T
 | **02** | **Task 2: FitCore Gym Landing Page** | Modern fitness landing page with glassmorphism, membership tier forms, trainer showcases, and member reviews. | [View Task 2](./Task%202-fitcore-gym-landing-page) | [Live Demo](https://fitcore-gym-landing-page.vercel.app/) |
 | **03** | **Task 3: Drone Product Landing Page** | High-converting dark-themed product landing page for DJI Mavic 4 Pro featuring product comparison matrices, review rating bars, and accessory cards. | [View Task 3](./Task%203-drone-product-landing-page) | [Live Demo](https://mariam-drone-product-landing-page.vercel.app/) |
 | **04** | **Task 4: Neubrutalism Landing Page** | Bold, modern Neubrutalist blog landing page for The UX Review featuring hard offset box-shadows, pure CSS mobile navigation drawer, sticky sidebar, and author profiles. | [View Task 4](./Task%204-neubrutalism-landing-page) | [Live Demo](https://neubrutalism-landing-page.vercel.app/) |
+| **05** | **Task 5: Mudabbir Financial Dashboard** | High-performance Arabic personal financial management dashboard featuring interactive glassmorphic metrics, income/expense breakdown charts, multi-card wallet management, budget progress indicators, and responsive RTL layout. | [View Task 5](./Task%205-mudabbir-financial-dashboard) | [Live Demo](https://mariam-mudabbir-financial-dashboard.vercel.app/) |
 
 ---
 
 ## 🛠️ Core Technologies & Concepts Covered
 
 - **HTML5 Semantic Architecture:** Strategic use of `<header>`, `<main>`, `<section>`, `<article>`, `<table>`, `<form>`, `<fieldset>`, and `<footer>` for maximum accessibility and SEO compliance.
-- **CSS3 Layout Systems & Responsiveness:** Flexbox, CSS Grid, media queries, CSS custom properties (variables), glassmorphic design, and smooth hover micro-animations.
-- **UI/UX & Design Systems:** Curated color palettes, modern typography (`Inter`), clean visual hierarchy, and cross-browser testing (Chrome, Firefox, Edge, Safari).
+- **CSS3 Layout Systems & Responsiveness:** Flexbox, CSS Grid, media queries, CSS custom properties (variables), glassmorphic design, RTL Arabic layout support, and smooth hover micro-animations.
+- **UI/UX & Design Systems:** Curated color palettes, modern typography (`IBM Plex Sans Arabic`, `Inter`), clean visual hierarchy, and cross-browser testing (Chrome, Firefox, Edge, Safari).
 - **Version Control & Workflow:** Professional Git commits, structured repository organization, and GitHub hosting.
 
 ---
