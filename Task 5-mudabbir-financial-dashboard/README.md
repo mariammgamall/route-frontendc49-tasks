@@ -79,8 +79,8 @@
 
 1. Clone or download the repository:
    ```bash
-   git clone https://github.com/mariammgamall/mudabbir-financial-dashboard.git
-   cd mudabbir-financial-dashboard
+   git clone https://github.com/mariammgamall/route-frontendc49-tasks.git
+   cd route-frontendc49-tasks/"Task 5-mudabbir-financial-dashboard"
    ```
 
 2. Open `index.html` directly in any web browser, or start a local HTTP server:
@@ -96,37 +96,11 @@
 
 ---
 
+## 👩‍💻 Author & Contact
 
-Clone or download the repository:
-   ```bash
-   git clone https://github.com/mariammgamall/mudabbir-financial-dashboard.git
-   cd mudabbir-financial-dashboard
-   ```
+**Mariam Gamal**  
+*Computer Science Engineering Student @ EJUST | Software Engineer & AI Developer*
 
-2. Open `index.html` directly in any web browser, or start a local HTTP server:
-   ```bash
-   # Using npx serve
-   npx serve .
-
-   # Or using Python HTTP server
-   python -m http.server 3000
-   ```
-
-3. Navigate to `http://localhost:3000` in your web browser.
-
----
-
-## 💡 How to Take a Full Size Screenshot in Browsers
-
-If you want to capture a full-page screenshot of the dashboard:
-
-### Google Chrome / Microsoft Edge / Brave:
-1. Open the page and press `F12` (or `Ctrl + Shift + I`) to open **Developer Tools**.
-2. Press `Ctrl + Shift + P` to bring up the **Command Menu**.
-3. Type `Capture full size screenshot` and hit `Enter`.
-4. The browser will automatically save a full-length PNG image to your downloads folder.
-
-### Mozilla Firefox:
-1. Right-click anywhere on the web page.
-2. Select **Take Screenshot** (or press `Ctrl + Shift + S`).
-3. Click **Save full page** at the top right corner.
+- 💼 **LinkedIn:** [Mariam Gamal](https://www.linkedin.com/in/mariam-gamal-3b2408281/)
+- 🐙 **GitHub:** [@mariammgamall](https://github.com/mariammgamall)
+- ✉️ **Email:** [maryamgamal188@gmail.com](mailto:maryamgamal188@gmail.com)
