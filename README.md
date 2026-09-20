@@ -45,8 +45,8 @@ Below is the official evaluation for each task in the repository:
 | <img src="README%20images/task-01-evaluation.jpeg" alt="Task 01 Evaluation" width="100%" /> | <img src="README%20images/task-02-evaluation.jpeg" alt="Task 02 Evaluation" width="100%" /> | <img src="README%20images/task-03-evaluation.jpeg" alt="Task 03 Evaluation" width="100%" /> |
 | **Task 04: Neubrutalism Landing Page** | **Task 05: Mudabbir Financial Dashboard** | **Task 06: GameArena Landing Page** |
 | <img src="README%20images/task-04-evaluation.jpeg" alt="Task 04 Evaluation" width="100%" /> | <img src="README%20images/task-05-evaluation.jpeg" alt="Task 05 Evaluation" width="100%" /> | <img src="README%20images/task-06-evaluation.jpeg" alt="Task 06 Evaluation" width="100%" /> |
-| **Task 07: JS Challenges & Problem Solving** | **Task 08: What's For Dinner** | |
-| <img src="README%20images/task-07-evaluation.jpeg" alt="Task 07 Evaluation" width="100%" /> | *Pending Evaluation* | |
+| **Task 07: JS Challenges & Problem Solving** | | |
+| <img src="README%20images/task-07-evaluation.jpeg" alt="Task 07 Evaluation" width="100%" /> |  | |
 
 </div>
 
