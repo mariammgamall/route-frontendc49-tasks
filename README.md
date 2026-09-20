@@ -1,6 +1,6 @@
 <div align="center">
 
-  <h1>🎮 Route Frontend Diploma (C49) - Tasks</h1>
+  <h1>🏆 Route Frontend Diploma (C49) - Tasks</h1>
   <p><b>A showcase of modern, responsive, and high performance web development projects built during the Route IT Training Center Frontend Diploma (C49).</b></p>
 
   <p>
@@ -13,13 +13,13 @@
 
 ---
 
-## 📌 Repository Overview
+## 📋 Repository Overview
 
-Welcome to the official web development projects repository for the **Route IT Training Center - Frontend Diploma (C49)** developed by **Mariam Gamal**. This repository features pixel-perfect, responsive, and user-centric web applications built step-by-step from fundamental HTML5 structure to advanced CSS layout systems, responsive design frameworks, pure CSS interactivity, and interactive landing pages.
+Welcome to the official web development projects repository for the **Route IT Training Center - Frontend Diploma (C49)** developed by **Mariam Gamal**. This repository features pixel-perfect, responsive, and user-centric web applications built step-by-step from fundamental HTML5 structure to advanced CSS layout systems, responsive design frameworks, pure CSS interactivity, interactive landing pages, and JavaScript problem-solving challenges.
 
 ---
 
-## 📂 Projects Directory & Showcase
+## 📁 Projects Directory & Showcase
 
 | # | Task / Project | Highlights & Features | Code Folder | Live Demo |
 |---|---|---|---|---|
@@ -29,6 +29,27 @@ Welcome to the official web development projects repository for the **Route IT T
 | **04** | **Task 4: Neubrutalism Landing Page** | Bold, modern Neubrutalist blog landing page for The UX Review featuring hard offset box-shadows, pure CSS mobile navigation drawer, sticky sidebar, and author profiles. | [View Task 4](./Task%204-neubrutalism-landing-page) | [Live Demo](https://neubrutalism-landing-page.vercel.app/) |
 | **05** | **Task 5: Mudabbir Financial Dashboard** | High-performance Arabic personal financial management dashboard featuring interactive glassmorphic metrics, income/expense breakdown charts, multi-card wallet management, budget progress indicators, and responsive RTL layout. | [View Task 5](./Task%205-mudabbir-financial-dashboard) | [Live Demo](https://mariam-mudabbir-financial-dashboard.vercel.app/) |
 | **06** | **Task 6: GameArena Landing Page** | Ultra-modern eSports & gaming landing page featuring zero-JS pure CSS 3-page games slider, responsive mobile drawer navigation, dual-direction continuous sponsor marquee, monochrome-to-neon team showcase, and SLA contact section. | [View Task 6](./Task%206-games-arena-landing-page) | [Live Demo](https://games-arena-landing-page.vercel.app/) |
+| **07** | **Task 7: JS Challenges & Problem Solving** | JavaScript problem solving and logic challenges. | [View Task 7](./Task%207-js-challenges-problem-solving) | — |
+
+---
+
+## 🏆 Task Evaluation & Grades Showcase
+
+Below is the official evaluation for each task in the repository:
+
+<div align="center">
+
+| Task # | Project Name | Evaluation & Feedback |
+| :---: | :--- | :---: |
+| **Task 01** | **Personal Portfolio** | <img src="README%20images/task-01-evaluation.jpeg" alt="Task 01 Evaluation" width="600" /> |
+| **Task 02** | **FitCore Gym Landing Page** | <img src="README%20images/task-02-evaluation.jpeg" alt="Task 02 Evaluation" width="600" /> |
+| **Task 03** | **Drone Product Landing Page** | <img src="README%20images/task-03-evaluation.jpeg" alt="Task 03 Evaluation" width="600" /> |
+| **Task 04** | **Neubrutalism Landing Page** | <img src="README%20images/task-04-evaluation.jpeg" alt="Task 04 Evaluation" width="600" /> |
+| **Task 05** | **Mudabbir Financial Dashboard** | <img src="README%20images/task-05-evaluation.jpeg" alt="Task 05 Evaluation" width="600" /> |
+| **Task 06** | **GameArena Landing Page** | <img src="README%20images/task-06-evaluation.jpeg" alt="Task 06 Evaluation" width="600" /> |
+| **Task 07** | **JS Challenges & Problem Solving** | <img src="README%20images/task-07-evaluation.jpeg" alt="Task 07 Evaluation" width="600" /> |
+
+</div>
 
 ---
 
@@ -59,7 +80,7 @@ Welcome to the official web development projects repository for the **Route IT T
 
 ---
 
-## 👩‍💻 Author & Contact
+## 👨‍💻 Author & Contact
 
 **Mariam Gamal**  
 *Computer Science Engineering Student @ EJUST | Software Engineer & AI Developer*
