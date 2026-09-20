@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>What's For Dinner - Daily Meal Inspiration</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <link rel="stylesheet" href="CSS/all.min.css">
+  <link rel="stylesheet" href="CSS/bootstrap.min.css">
+  <link rel="stylesheet" href="CSS/main.css">
+</head>
+
+<body class="bg-app">
+
+  <!-- Full-Width Top White Navbar -->
+  <header class="bg-white border-bottom py-2 mb-4 w-100 shadow-xs">
+    <div class="container">
+      <div class="d-flex align-items-center justify-content-between">
+
+        <!-- Logo & Tagline -->
+        <div class="d-flex align-items-center">
+          <div class="logo-icon-bg me-3 d-flex align-items-center justify-content-center text-white shadow-xs">
+            <i class="fa-solid fa-utensils fs-4"></i>
+          </div>
+          <div>
+            <h1 class="h4 fw-bold text-dark mb-0 logo-text">What's For Dinner</h1>
+            <p class="text-muted mb-0 small fw-medium">Your daily meal inspiration</p>
+          </div>
+        </div>
+
+        <!-- Desktop Utility Icons (Visible on medium+ screens) -->
+        <div class="d-none d-md-flex align-items-center gap-3">
+          <button class="btn btn-utility-plain" title="Saved Bookmarks">
+            <i class="fa-regular fa-bookmark fs-5"></i>
+          </button>
+          <button class="btn btn-utility-plain" title="Recipe History">
+            <i class="fa-solid fa-clock-rotate-left fs-5"></i>
+          </button>
+          <button class="btn btn-utility-plain" title="Settings">
+            <i class="fa-solid fa-gear fs-5"></i>
+          </button>
+          <!-- User Avatar Image -->
+          <div class="user-avatar ms-1" title="User Profile">
+            <img src="images/avatar-4.jpg" alt="User Profile" class="rounded-circle">
+          </div>
+        </div>
+
+        <!-- Mobile Hamburger Menu Button (Visible on mobile screens) -->
+        <button class="btn border-0 text-dark p-1 d-md-none" type="button" data-bs-toggle="collapse"
+          data-bs-target="#mobileNavMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars fs-3 text-secondary"></i>
+        </button>
+
+      </div>
+
+      <!-- Collapsible Mobile Dropdown Menu -->
+      <div class="collapse d-md-none border-top mt-3 pt-2" id="mobileNavMenu">
+        <ul class="list-unstyled mb-0 py-2 d-flex flex-column gap-3">
+          <li>
+            <a href="#"
+              class="mobile-nav-item d-flex align-items-center gap-3 text-decoration-none text-dark fw-medium fs-6">
+              <i class="fa-solid fa-bookmark text-secondary fs-5 nav-icon-fixed"></i>
+              <span>Saved Recipes</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="mobile-nav-item d-flex align-items-center gap-3 text-decoration-none text-dark fw-medium fs-6">
+              <i class="fa-solid fa-clock-rotate-left text-secondary fs-5 nav-icon-fixed"></i>
+              <span>Recent</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="mobile-nav-item d-flex align-items-center gap-3 text-decoration-none text-dark fw-medium fs-6">
+              <i class="fa-solid fa-gear text-secondary fs-5 nav-icon-fixed"></i>
+              <span>Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#"
+              class="mobile-nav-item d-flex align-items-center gap-3 text-decoration-none text-dark fw-medium fs-6">
+              <img src="images/avatar-4.jpg" alt="User Avatar" class="rounded-circle nav-avatar-fixed">
+              <span>Profile</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </header>
+
+  <!-- Main Application Container -->
+  <div class="container pb-5">
+
+    <!-- Main Recipe Display Card -->
+    <main class="card main-recipe-card border-0 shadow-sm rounded-4 overflow-hidden mb-4" id="mainRecipeCard">
+      <div class="row g-0">
+
+        <!-- Left Column: Fixed/Sticky Hero Image & Perfectly Aligned Bottom Info Card -->
+        <div class="col-lg-5 position-relative recipe-image-column">
+          <div class="recipe-img-wrapper">
+            <img id="recipeImage" src="images/french-onion-soup.jpg" alt="Recipe Image"
+              class="w-100 h-100 object-fit-cover recipe-img">
+
+            <!-- Rating Overlay Badge (Top-Left) -->
+            <div
+              class="rating-badge position-absolute top-0 start-0 m-3 px-3 py-1 bg-white rounded-pill shadow-xs d-flex align-items-center">
+              <i class="fa-solid fa-star text-warning me-1"></i>
+              <span id="recipeRating" class="fw-bold text-dark fs-6">4.7</span>
+              <span id="recipeReviews" class="text-muted ms-1 small fw-normal">(367 reviews)</span>
+            </div>
+
+            <!-- Perfectly Aligned Floating White Info Card -->
+            <div class="floating-info-card p-3 bg-white rounded-4 shadow-sm text-center">
+              <div class="row g-0 align-items-center">
+                <div class="col-4 border-end">
+                  <i class="fa-solid fa-clock text-orange mb-1 fs-5"></i>
+                  <span class="d-block text-muted text-capitalize small-label">Prep Time</span>
+                  <span id="prepTime" class="fw-bold text-dark fs-6">15 min</span>
+                </div>
+                <div class="col-4 border-end">
+                  <i class="fa-solid fa-fire text-danger mb-1 fs-5"></i>
+                  <span class="d-block text-muted text-capitalize small-label">Cook Time</span>
+                  <span id="cookTime" class="fw-bold text-dark fs-6">20 min</span>
+                </div>
+                <div class="col-4">
+                  <i class="fa-solid fa-user-group text-primary mb-1 fs-5"></i>
+                  <span class="d-block text-muted text-capitalize small-label">Servings</span>
+                  <span id="servings" class="fw-bold text-dark fs-6">2 people</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column: Details, Badges, Tabs & Content -->
+        <div class="col-lg-7 p-4 p-md-5 d-flex flex-column justify-content-between bg-white">
+
+          <div>
+            <!-- Top Badges & Action Buttons -->
+            <div class="d-flex align-items-center justify-content-between mb-3">
+              <div class="d-flex align-items-center gap-2">
+                <span id="recipeDifficulty" class="badge badge-easy px-3 py-2 rounded-pill fw-semibold">Easy</span>
+                <span id="recipeCuisine" class="badge badge-asian px-3 py-2 rounded-pill fw-semibold">Asian</span>
+              </div>
+
+              <div class="d-flex gap-2">
+                <button id="btnBookmark" class="btn btn-soft-orange" title="Bookmark Recipe">
+                  <i class="fa-solid fa-bookmark"></i>
+                </button>
+                <button class="btn btn-soft-orange" title="Share Recipe">
+                  <i class="fa-solid fa-share-nodes"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Recipe Title & Description -->
+            <h2 id="recipeTitle" class="fw-bold text-dark recipe-title mb-1">Teriyaki Chicken Bowl</h2>
+            <p id="recipeDescription" class="text-secondary recipe-desc mb-4">Sweet and savory chicken over rice with
+              vegetables</p>
+
+            <!-- Conditional Prep Time Warning Alert -->
+            <div id="prepWarningBox"
+              class="alert alert-warning border-0 rounded-3 p-3 mb-4 d-flex align-items-center shadow-xs d-none">
+              <i class="fa-solid fa-triangle-exclamation text-amber me-3 fs-4"></i>
+              <div>
+                <span class="fw-bold text-dark d-block">Extended Preparation Notice</span>
+                <span id="warningText" class="text-secondary small fw-medium">This recipe takes over 45 minutes to
+                  prepare & cook. Plan accordingly!</span>
+              </div>
+            </div>
+
+            <!-- Custom Navigation Tabs Header -->
+            <ul class="nav nav-tabs custom-nav-tabs border-bottom mb-4">
+              <li class="nav-item">
+                <button class="nav-tab-btn active" data-tab="tabIngredients">
+                  <i class="fa-solid fa-list-check me-2"></i>Ingredients
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-tab-btn" data-tab="tabInstructions">
+                  <i class="fa-solid fa-book-open me-2"></i>Instructions
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-tab-btn" data-tab="tabNutrition">
+                  <i class="fa-solid fa-chart-pie me-2"></i>Nutrition
+                </button>
+              </li>
+              <li class="nav-item">
+                <button class="nav-tab-btn" data-tab="tabTips">
+                  <i class="fa-solid fa-lightbulb me-2"></i>Chef's Tips
+                </button>
+              </li>
+            </ul>
+
+            <!-- Tab Content Containers -->
+            <div class="tab-content-area mb-3">
+
+              <!-- Tab 1: Ingredients (Warm Cream Box) -->
+              <div id="tabIngredients" class="tab-pane-content">
+                <div class="ingredients-card-wrapper p-4 rounded-4">
+                  <ul id="ingredientsList" class="list-unstyled mb-0">
+                    <!-- Dynamic ingredients injected by JS -->
+                  </ul>
+                </div>
+              </div>
+
+              <!-- Tab 2: Instructions (Scrollable with custom scrollbar) -->
+              <div id="tabInstructions" class="tab-pane-content custom-scrollable-tab d-none">
+                <div id="instructionsList">
+                  <!-- Dynamic steps injected by JS -->
+                </div>
+              </div>
+
+              <!-- Tab 3: Nutrition Grid (Responsive: 1 col on mobile, 2 cols on desktop ) -->
+              <div id="tabNutrition" class="tab-pane-content custom-scrollable-tab d-none">
+                <div class="row g-3">
+                  <!-- Calories -->
+                  <div class="col-12 col-md-6">
+                    <div
+                      class="nutrition-item-box p-3 rounded-4 bg-light-card d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center gap-3">
+                        <div class="nutr-icon-box bg-flame">
+                          <i class="fa-solid fa-fire text-flame"></i>
+                        </div>
+                        <span class="fw-semibold text-secondary">Calories</span>
+                      </div>
+                      <span id="nutrCalories" class="fw-bold text-dark fs-5">540 kcal</span>
+                    </div>
+                  </div>
+
+                  <!-- Protein -->
+                  <div class="col-12 col-md-6">
+                    <div
+                      class="nutrition-item-box p-3 rounded-4 bg-light-card d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center gap-3">
+                        <div class="nutr-icon-box bg-dumbbell">
+                          <i class="fa-solid fa-dumbbell text-dumbbell"></i>
+                        </div>
+                        <span class="fw-semibold text-secondary">Protein</span>
+                      </div>
+                      <span id="nutrProtein" class="fw-bold text-dark fs-5">42g</span>
+                    </div>
+                  </div>
+
+                  <!-- Carbohydrates -->
+                  <div class="col-12 col-md-6">
+                    <div
+                      class="nutrition-item-box p-3 rounded-4 bg-light-card d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center gap-3">
+                        <div class="nutr-icon-box bg-wheat">
+                          <i class="fa-solid fa-wheat-awn text-wheat"></i>
+                        </div>
+                        <span class="fw-semibold text-secondary">Carbohydrates</span>
+                      </div>
+                      <span id="nutrCarbs" class="fw-bold text-dark fs-5">58g</span>
+                    </div>
+                  </div>
+
+                  <!-- Fat -->
+                  <div class="col-12 col-md-6">
+                    <div
+                      class="nutrition-item-box p-3 rounded-4 bg-light-card d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center gap-3">
+                        <div class="nutr-icon-box bg-drop">
+                          <i class="fa-solid fa-droplet text-drop"></i>
+                        </div>
+                        <span class="fw-semibold text-secondary">Fat</span>
+                      </div>
+                      <span id="nutrFat" class="fw-bold text-dark fs-5">14g</span>
+                    </div>
+                  </div>
+
+                  <!-- Fiber -->
+                  <div class="col-12 col-md-6">
+                    <div
+                      class="nutrition-item-box p-3 rounded-4 bg-light-card d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center gap-3">
+                        <div class="nutr-icon-box bg-leaf">
+                          <i class="fa-solid fa-leaf text-leaf"></i>
+                        </div>
+                        <span class="fw-semibold text-secondary">Fiber</span>
+                      </div>
+                      <span id="nutrFiber" class="fw-bold text-dark fs-5">4g</span>
+                    </div>
+                  </div>
+
+                  <!-- Sodium -->
+                  <div class="col-12 col-md-6">
+                    <div
+                      class="nutrition-item-box p-3 rounded-4 bg-light-card d-flex align-items-center justify-content-between">
+                      <div class="d-flex align-items-center gap-3">
+                        <div class="nutr-icon-box bg-cube">
+                          <i class="fa-solid fa-cubes text-cube"></i>
+                        </div>
+                        <span class="fw-semibold text-secondary">Sodium</span>
+                      </div>
+                      <span id="nutrSodium" class="fw-bold text-dark fs-5">1240mg</span>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <!-- Tab 4: Chef's Tips -->
+              <div id="tabTips" class="tab-pane-content d-none">
+                <div id="chefTipsList" class="d-flex flex-column gap-3">
+                  <!-- Dynamic tips injected by JS -->
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- Bottom Button Section with Transparent Divider Line -->
+          <div class="button-section-wrapper border-top pt-4 mt-2">
+            <button id="btnGenerate"
+              class="btn btn-compact-generator py-2 px-4 rounded-3 fw-bold text-white d-inline-flex align-items-center gap-2 shadow-sm">
+              <i class="fa-solid fa-arrows-rotate"></i>
+              <span>Try Another Recipe</span>
+            </button>
+          </div>
+
+        </div>
+
+      </div>
+    </main>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/main.js"></script>
+</body>
+
+</html>
