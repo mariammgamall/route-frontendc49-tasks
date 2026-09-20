@@ -39,15 +39,11 @@ Below is the official evaluation for each task in the repository:
 
 <div align="center">
 
-| Task # | Project Name | Evaluation & Feedback |
-| :---: | :--- | :---: |
-| **Task 01** | **Personal Portfolio** | <img src="README%20images/task-01-evaluation.jpeg" alt="Task 01 Evaluation" width="600" /> |
-| **Task 02** | **FitCore Gym Landing Page** | <img src="README%20images/task-02-evaluation.jpeg" alt="Task 02 Evaluation" width="600" /> |
-| **Task 03** | **Drone Product Landing Page** | <img src="README%20images/task-03-evaluation.jpeg" alt="Task 03 Evaluation" width="600" /> |
-| **Task 04** | **Neubrutalism Landing Page** | <img src="README%20images/task-04-evaluation.jpeg" alt="Task 04 Evaluation" width="600" /> |
-| **Task 05** | **Mudabbir Financial Dashboard** | <img src="README%20images/task-05-evaluation.jpeg" alt="Task 05 Evaluation" width="600" /> |
-| **Task 06** | **GameArena Landing Page** | <img src="README%20images/task-06-evaluation.jpeg" alt="Task 06 Evaluation" width="600" /> |
-| **Task 07** | **JS Challenges & Problem Solving** | <img src="README%20images/task-07-evaluation.jpeg" alt="Task 07 Evaluation" width="600" /> |
+| Column 1 | Column 2 | Column 3 |
+| :---: | :---: | :---: |
+| **Task 01: Personal Portfolio**<br/><br/><img src="README%20images/task-01-evaluation.jpeg" alt="Task 01 Evaluation" width="100%" /> | **Task 02: FitCore Gym**<br/><br/><img src="README%20images/task-02-evaluation.jpeg" alt="Task 02 Evaluation" width="100%" /> | **Task 03: Drone Landing Page**<br/><br/><img src="README%20images/task-03-evaluation.jpeg" alt="Task 03 Evaluation" width="100%" /> |
+| **Task 04: Neubrutalism**<br/><br/><img src="README%20images/task-04-evaluation.jpeg" alt="Task 04 Evaluation" width="100%" /> | **Task 05: Mudabbir Dashboard**<br/><br/><img src="README%20images/task-05-evaluation.jpeg" alt="Task 05 Evaluation" width="100%" /> | **Task 06: GameArena**<br/><br/><img src="README%20images/task-06-evaluation.jpeg" alt="Task 06 Evaluation" width="100%" /> |
+| **Task 07: JS Challenges**<br/><br/><img src="README%20images/task-07-evaluation.jpeg" alt="Task 07 Evaluation" width="100%" /> | | |
 
 </div>
 
