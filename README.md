@@ -32,6 +32,7 @@ Welcome to the official web development projects repository for the **Route IT T
 | **07** | **Task 7: JS Challenges & Problem Solving** | JavaScript problem solving and logic challenges. | [View Task 7](./Task%207-js-challenges-problem-solving) | — |
 | **08** | **Task 8: What's For Dinner** | Interactive daily meal inspiration app featuring random recipe selector (`Math.random()`), floating timing overlay, interactive tabs system (Ingredients, Step-by-Step Instructions, Nutrition metrics, Chef's Tips), extended prep alert, and mobile dropdown navigation. | [View Task 8](./Task%208-what-is-for-dinner) | [Live Demo](https://what-is-for-dinnerr.vercel.app/) |
 | **09** | **Task 9: ContactHub - Smart Contact Manager** | Modern, responsive Contact Management Web Application featuring full CRUD operations, real-time search filtering, favorite & emergency contact toggles, Egyptian phone number validation, SweetAlert2 alerts, and LocalStorage data persistence. | [View Task 9](./Task%209-smart-contact-manager) | [Live Demo](https://smart-contact-managerr.vercel.app/) |
+| **10** | **Task 10: Personal Portfolio Website** | Feature-rich personal portfolio web application featuring Dark/Light theme toggle, interactive code terminal (`mariam.js`), category-based project filtering, testimonials carousel, live customization sidebar, non-resizable contact form, and responsive RTL layout. | [View Task 10](./Task%2010-personal-portfolio-website) | [Live Demo](https://personall-portfoliio-websiite.vercel.app/) |
 
 ---
 

@@ -1,0 +1,1288 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar" class="light">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>مريم جمال | مهندسة حاسبات ومطورة ذكاء اصطناعي</title>
+
+  <meta name="description"
+    content="الموقع الشخصي للمهندسة مريم جمال - مطورة تطبيقات ويب وأنظمة ذكاء اصطناعي وتصميم واجهات." />
+  <meta name="keywords" content="مريم جمال, مهندسة حاسبات, AI Developer, Web Developer, React, Python" />
+  <meta name="author" content="مريم جمال" />
+
+  <link rel="icon" type="image/png" href="images/favicon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700;800;900&family=Cairo:wght@300;400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@300;400;500;600;700&family=Tajawal:wght@300;400;500;700;800;900&display=swap"
+    rel="stylesheet" />
+
+  <link rel="stylesheet" href="CSS/all.min.css" />
+  <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+  <link rel="stylesheet" href="CSS/style.css?v=2" />
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-custom fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center gap-2 font-bold" href="#hero-section">
+        <div class="navbar-brand-icon">
+          <i class="fa-solid fa-code text-white"></i>
+        </div>
+        <span class="fs-4 fw-extrabold text-gradient">مريم جمال</span>
+      </a>
+
+      <div class="d-flex align-items-center gap-3 order-lg-last">
+        <button id="theme-toggle-btn" class="theme-switch-capsule" aria-label="تغيير المظهر" title="تغيير المظهر">
+          <span class="theme-switch-circle">
+            <i class="fa-solid fa-sun theme-icon-sun"></i>
+            <i class="fa-solid fa-moon theme-icon-moon"></i>
+          </span>
+        </button>
+
+        <button class="navbar-toggler border-0 shadow-none text-primary" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="القائمة">
+          <i class="fa-solid fa-bars-staggered fs-2"></i>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav gap-1 text-center py-3 py-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#hero-section">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">عني</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">الأعمال</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experience">الخبرة</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">التوصيات</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">تواصل</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- 1. Hero Section -->
+    <section id="hero-section" class="hero-section">
+      <div class="blur-orb-1"></div>
+      <div class="blur-orb-2"></div>
+      <div class="container">
+        <div class="row align-items-center gy-5">
+          <div class="col-lg-7 text-start order-2 order-lg-1">
+            <div class="status-badge">
+              <span class="status-dot"></span>
+              <span>متاحة لفرص العمل الحر والتدريب</span>
+            </div>
+
+            <h1 class="display-4 fw-extrabold mb-3">
+              مرحباً، أنا
+              <span class="text-gradient d-block d-sm-inline">مريم جمال</span>
+            </h1>
+
+            <div class="role-badge">
+              <i class="fa-solid fa-code text-primary"></i>
+              <span>Software & AI Engineer</span>
+            </div>
+
+            <p class="lead text-secondary mb-4 max-w-xl">
+              بحول أفكارك لـ <span class="text-primary fw-bold">تجارب رقمية مميزة</span>. متخصصة في بناء مواقع وتطبيقات
+              ويب حديثة بأحدث التقنيات.
+            </p>
+
+            <div class="d-flex flex-nowrap align-items-center gap-2 gap-sm-3 mb-4">
+              <a href="#portfolio"
+                class="btn btn-lg bg-gradient-primary rounded-pill px-3 px-sm-4 py-2 py-sm-3 font-bold shadow text-nowrap">
+                <span>استكشف أعمالي</span>
+                <i class="fa-solid fa-arrow-left ms-1 ms-sm-2"></i>
+              </a>
+              <a href="#contact"
+                class="btn btn-lg border-2 border-primary text-primary rounded-pill px-3 px-sm-4 py-2 py-sm-3 font-bold text-nowrap">
+                <span>تواصل معي</span>
+                <i class="fa-solid fa-paper-plane ms-1 ms-sm-2"></i>
+              </a>
+            </div>
+
+            <div class="hero-tech-grid">
+              <div class="hero-tech-card">
+                <span>SQL & Mongo</span>
+                <i class="fa-solid fa-database text-primary ms-1"></i>
+              </div>
+              <div class="hero-tech-card">
+                <span>Node.js</span>
+                <i class="fa-brands fa-node-js text-success ms-1"></i>
+              </div>
+              <div class="hero-tech-card">
+                <span>JavaScript</span>
+                <i class="fa-brands fa-js text-warning ms-1"></i>
+              </div>
+              <div class="hero-tech-card">
+                <span>Python</span>
+                <i class="fa-brands fa-python text-warning ms-1"></i>
+              </div>
+              <div class="hero-tech-card">
+                <span>React.js</span>
+                <i class="fa-brands fa-react text-info ms-1"></i>
+              </div>
+              <div class="hero-tech-card">
+                <span>Figma</span>
+                <i class="fa-brands fa-figma text-danger ms-1"></i>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-5 text-center order-1 order-lg-2">
+            <div class="hero-img-container">
+              <div class="spinning-ring"></div>
+              <div class="spinning-ring-inner"></div>
+              <img src="images/hero-section.jpeg" alt="مريم جمال - مهندسة حاسبات" class="hero-img" />
+              <div class="floating-badge badge-1" title="React.js">
+                <i class="fa-brands fa-react"></i>
+              </div>
+              <div class="floating-badge badge-2" title="Python">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <div class="floating-badge badge-3" title="UI/UX Design">
+                <i class="fa-brands fa-figma"></i>
+              </div>
+              <div class="floating-badge badge-4" title="Code">
+                <i class="fa-solid fa-code"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. About Section -->
+    <section id="about" class="py-5 bg-surface-alt">
+      <div class="container">
+        <div class="text-center mb-5">
+          <span class="section-subtitle">من أنا</span>
+          <h2 class="section-title">
+            عن <span class="text-gradient d-inline-block position-relative">
+              مريم جمال
+              <span class="about-title-underline"></span>
+            </span>
+          </h2>
+        </div>
+
+        <div class="row gy-4 align-items-start">
+          <!-- 1st Column in HTML (RTL) = Visually on the RIGHT side -->
+          <div class="col-lg-6 text-start">
+            <div>
+              <h3 class="fw-extrabold h2 mb-4">
+                بحب أحول الأفكار <span class="text-gradient">لواقع رقمي</span>
+              </h3>
+              <p class="text-secondary leading-relaxed fs-5 mb-3">
+                مطورة واجهات أمامية بخبرة +4 سنوات في بناء تطبيقات ويب حديثة وتصميم تجارب مستخدم استثنائية.
+              </p>
+              <p class="text-secondary leading-relaxed fs-5 mb-4">
+                بشتغل بأحدث التقنيات زي React و Next.js و TypeScript عشان أقدم حلول عالية الجودة ونعدي التوقعات.
+              </p>
+
+              <div class="d-flex align-items-center gap-2 flex-wrap mb-4">
+                <span class="badge rounded-pill bg-light text-dark shadow-sm border px-3 py-2 fs-6">
+                  <i class="fa-solid fa-graduation-cap me-1 text-primary"></i> هندسة الحاسب
+                </span>
+                <span class="badge rounded-pill bg-light text-dark shadow-sm border px-3 py-2 fs-6">
+                  <i class="fa-solid fa-briefcase me-1 text-primary"></i> 13+ مشروع
+                </span>
+                <span class="badge rounded-pill bg-light text-dark shadow-sm border px-3 py-2 fs-6">
+                  <i class="fa-solid fa-users me-1 text-primary"></i> 10+ عميل سعيد
+                </span>
+              </div>
+
+              <div class="custom-card p-4">
+                <h4 class="h6 fw-bold mb-3 d-flex align-items-center justify-content-between">
+                  <span>ما أقدمه</span>
+                  <i class="fa-solid fa-rocket text-primary"></i>
+                </h4>
+                <ul class="list-unstyled mb-0 space-y-2">
+                  <li class="d-flex align-items-center gap-2 text-secondary small mb-2">
+                    <span class="badge bg-primary rounded-circle p-1"></span>
+                    <span>تطوير تطبيقات ويب متكاملة بـ React & Next.js</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 text-secondary small mb-2">
+                    <span class="badge bg-secondary rounded-circle p-1"></span>
+                    <span>تصميم واجهات مستخدم حديثة وجذابة</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 text-secondary small mb-2">
+                    <span class="badge bg-accent rounded-circle p-1"></span>
+                    <span>تحسين الأداء وسرعة التحميل</span>
+                  </li>
+                  <li class="d-flex align-items-center gap-2 text-secondary small mb-0">
+                    <span class="badge bg-success rounded-circle p-1"></span>
+                    <span>تطوير مواقع متوافقة مع جميع الأجهزة</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2nd Column in HTML (RTL) = Visually on the LEFT side -->
+          <div class="col-lg-6">
+            <div class="terminal-card mb-4">
+              <div class="terminal-header">
+                <span class="small text-muted font-monospace">mariam.js</span>
+                <div class="terminal-dots-wrapper">
+                  <div class="terminal-dot dot-red"></div>
+                  <div class="terminal-dot dot-yellow"></div>
+                  <div class="terminal-dot dot-green"></div>
+                </div>
+              </div>
+              <div class="terminal-body">
+                <p><span class="comment">// من أنا باختصار</span></p>
+                <p>
+                  <span class="keyword">const</span> <span class="variable">mariam</span> = {
+                </p>
+                <p class="ms-3">
+                  <span class="variable">name</span>: <span class="string">"مريم جمال"</span>,
+                </p>
+                <p class="ms-3">
+                  <span class="variable">title</span>: <span class="string">"Software & AI Engineer"</span>,
+                </p>
+                <p class="ms-3">
+                  <span class="variable">experience</span>: <span class="number">4</span> + <span class="string">"
+                    years"</span>,
+                </p>
+                <p class="ms-3">
+                  <span class="variable">location</span>: <span class="string">"Alexandria, Egypt EG"</span>,
+                </p>
+                <p class="ms-3">
+                  <span class="variable">skills</span>: [
+                </p>
+                <p class="ms-4">
+                  <span class="string">"React"</span>, <span class="string">"Next.js"</span>,
+                </p>
+                <p class="ms-4">
+                  <span class="string">"TypeScript"</span>, <span class="string">"Tailwind"</span>
+                </p>
+                <p class="ms-3">],</p>
+                <p class="ms-3">
+                  <span class="variable">passion</span>: <span class="string">"Creating pixel-perfect UIs"</span>,
+                </p>
+                <p class="ms-3">
+                  <span class="variable">available</span>: <span class="boolean">true</span>,
+                </p>
+                <p class="ms-3">
+                  <span class="variable">hireable</span>: <span class="boolean">true</span>
+                </p>
+                <p>};</p>
+                <p class="mt-2"><span class="keyword">export default</span> <span class="variable">mariam</span>;</p>
+              </div>
+            </div>
+
+            <!-- Quick Stats -->
+            <div class="row g-3 text-center">
+              <div class="col-4">
+                <div class="stat-box">
+                  <div class="stat-number">10+</div>
+                  <div class="small text-muted font-bold">عميل</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-box">
+                  <div class="stat-number">4+</div>
+                  <div class="small text-muted font-bold">سنوات</div>
+                </div>
+              </div>
+              <div class="col-4">
+                <div class="stat-box">
+                  <div class="stat-number">13+</div>
+                  <div class="small text-muted font-bold">مشروع</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Skills Section -->
+    <section id="skills-section" class="py-5">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-subtitle">ما أتقنه</span>
+          <h2 class="section-title">المهارات و <span class="text-gradient">التقنيات</span></h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card p-4 h-100">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <h3 class="h4 fw-bold mb-0">React.js</h3>
+                <i class="fa-brands fa-react fs-1 text-info"></i>
+              </div>
+              <div class="progress mb-3" style="height: 8px;">
+                <div class="progress-bar bg-gradient-primary" style="width: 95%;"></div>
+              </div>
+              <p class="text-muted small mb-0">بناء تطبيقات ويب تفاعلية حديثة بـ React 19</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card p-4 h-100">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <h3 class="h4 fw-bold mb-0">Python & AI</h3>
+                <i class="fa-brands fa-python fs-1 text-warning"></i>
+              </div>
+              <div class="progress mb-3" style="height: 8px;">
+                <div class="progress-bar bg-gradient-accent" style="width: 92%;"></div>
+              </div>
+              <p class="text-muted small mb-0">تطوير أنظمة الذكاء الاصطناعي و RAG Pipelines</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card p-4 h-100">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <h3 class="h4 fw-bold mb-0">Next.js</h3>
+                <i class="fa-solid fa-n fs-1 text-secondary"></i>
+              </div>
+              <div class="progress mb-3" style="height: 8px;">
+                <div class="progress-bar bg-secondary" style="width: 90%;"></div>
+              </div>
+              <p class="text-muted small mb-0">تطوير تطبيقات SSR و Full-Stack متقدمة</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card p-4 h-100">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <h3 class="h4 fw-bold mb-0">Node.js & Express</h3>
+                <i class="fa-brands fa-node-js fs-1 text-success"></i>
+              </div>
+              <div class="progress mb-3" style="height: 8px;">
+                <div class="progress-bar bg-success" style="width: 88%;"></div>
+              </div>
+              <p class="text-muted small mb-0">بناء APIs وخدمات خلفية آمنة عالية الأداء</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card p-4 h-100">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <h3 class="h4 fw-bold mb-0">Databases</h3>
+                <i class="fa-solid fa-database fs-1 text-primary"></i>
+              </div>
+              <div class="progress mb-3" style="height: 8px;">
+                <div class="progress-bar bg-primary" style="width: 88%;"></div>
+              </div>
+              <p class="text-muted small mb-0">إدارة قواعد البيانات PostgreSQL, MongoDB, MySQL</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="custom-card p-4 h-100">
+              <div class="d-flex align-items-center justify-content-between mb-3">
+                <h3 class="h4 fw-bold mb-0">Figma</h3>
+                <i class="fa-brands fa-figma fs-1 text-danger"></i>
+              </div>
+              <div class="progress mb-3" style="height: 8px;">
+                <div class="progress-bar bg-danger" style="width: 92%;"></div>
+              </div>
+              <p class="text-muted small mb-0">تصميم واجهات احترافية ونماذج تفاعلية</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-3 mt-4 text-center">
+          <div class="col-6 col-md-3">
+            <div class="custom-card p-4">
+              <i class="fa-brands fa-html5 fs-1 text-danger mb-2"></i>
+              <p class="fw-bold mb-0 small">HTML5</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="custom-card p-4">
+              <i class="fa-brands fa-css3-alt fs-1 text-primary mb-2"></i>
+              <p class="fw-bold mb-0 small">CSS3</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="custom-card p-4">
+              <i class="fa-brands fa-js fs-1 text-warning mb-2"></i>
+              <p class="fw-bold mb-0 small">JavaScript</p>
+            </div>
+          </div>
+          <div class="col-6 col-md-3">
+            <div class="custom-card p-4">
+              <i class="fa-brands fa-git-alt fs-1 text-danger mb-2"></i>
+              <p class="fw-bold mb-0 small">Git</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Portfolio Section -->
+    <section id="portfolio" class="py-5 bg-surface-alt">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-subtitle">أعمالي</span>
+          <h2 class="section-title">معرض <span class="text-gradient">المشاريع</span></h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="d-flex justify-content-center gap-2 flex-wrap mb-5" id="portfolio-filters">
+          <button class="portfolio-filter-btn active" data-filter="all">الكل</button>
+          <button class="portfolio-filter-btn" data-filter="web">مواقع الويب</button>
+          <button class="portfolio-filter-btn" data-filter="app">التطبيقات</button>
+          <button class="portfolio-filter-btn" data-filter="design">التصميم</button>
+          <button class="portfolio-filter-btn" data-filter="ai">الذكاء الاصطناعي</button>
+        </div>
+
+        <div class="row g-4" id="portfolio-grid">
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/lms-project-image.png" alt="نظام إدارة التعلم LMS" />
+                <span class="portfolio-badge">موقع ويب</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">نظام إدارة التعلم (LMS)</h3>
+                <p class="text-muted small mb-3">منصة تعليمية متكاملة بـ Next.js 15 و Express و PostgreSQL مع إدارة 5
+                  أدوار مستخدمين.</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">Next.js 15</span>
+                  <span class="portfolio-tag">TypeScript</span>
+                  <span class="portfolio-tag">PostgreSQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/cos-project-image.png" alt="Aura COS" />
+                <span class="portfolio-badge">موقع ويب</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">نظام طلبات العملاء (Aura COS)</h3>
+                <p class="text-muted small mb-3">منصة طلبات كاملة بـ Flask و Python مع لوحة تحكم وتتبع الطلبات مباشرة.
+                </p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">Flask</span>
+                  <span class="portfolio-tag">Python</span>
+                  <span class="portfolio-tag">Bootstrap</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/hms-project-image.png" alt="CareSync HMS" />
+                <span class="portfolio-badge">تطبيق</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">CareSync - نظام المستشفيات (HMS)</h3>
+                <p class="text-muted small mb-3">نظام إداري متكامل للمستشفيات مع 8 أدوار صلاحيات وإدارة الصيدليات
+                  والمرضى.</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">React.js</span>
+                  <span class="portfolio-tag">Express</span>
+                  <span class="portfolio-tag">PostgreSQL</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="ai">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/intellmeet-project-image.png" alt="IntellMeet AI Platform" />
+                <span class="portfolio-badge">ذكاء اصطناعي</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">IntellMeet - اجتماعات الذكاء الاصطناعي</h3>
+                <p class="text-muted small mb-3">منصة اجتماعات WebRTC مجهزة بالذكاء الاصطناعي لتلخيص المحادثات وتوليد
+                  القرارات.</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">React 19</span>
+                  <span class="portfolio-tag">WebRTC</span>
+                  <span class="portfolio-tag">OpenAI</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="design">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/uxreview-project-image.png" alt="The UX Review Blog" />
+                <span class="portfolio-badge">تصميم</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">The UX Review Blog</h3>
+                <p class="text-muted small mb-3">مدونة تصميم واجهات بأسلوب Neubrutalism وتنسيق عالي التناغم لجميع
+                  الأجهزة.</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">HTML5</span>
+                  <span class="portfolio-tag">CSS3</span>
+                  <span class="portfolio-tag">Flexbox</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/droneproduct-project-image.png" alt="DJI Mavic 4 Pro" />
+                <span class="portfolio-badge">موقع ويب</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">DJI Mavic 4 Pro - صفحة هبوط</h3>
+                <p class="text-muted small mb-3">صفحة عرض واستعراض مواصفات طائرات درون حديثة بتصميم داكن حركي.</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">HTML5</span>
+                  <span class="portfolio-tag">CSS3</span>
+                  <span class="portfolio-tag">FontAwesome</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/muddabir-project-image.png" alt="Mudabbir Finance Dashboard" />
+                <span class="portfolio-badge">تطبيق</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">مدبّر (Mudabbir) - لوحة الميزانية</h3>
+                <p class="text-muted small mb-3">تطبيق إداري لمتابعة المصروفات والميزانيات الشخصية مع كروت 3D تفاعلية.
+                </p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">HTML5</span>
+                  <span class="portfolio-tag">CSS3</span>
+                  <span class="portfolio-tag">RTL Arabic</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/gamearena-project-image.png" alt="GameArena eSports" />
+                <span class="portfolio-badge">موقع ويب</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">GameArena - منصة الألعاب</h3>
+                <p class="text-muted small mb-3">منصة ألعاب إلكترونية حديثة وسريعة بتنسيق داكن وتأثيرات حركية خفيفة.</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">Bootstrap 5</span>
+                  <span class="portfolio-tag">CSS3</span>
+                  <span class="portfolio-tag">HTML5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/elitehomes-project-image.png" alt="EliteHomes Real Estate" />
+                <span class="portfolio-badge">موقع ويب</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">EliteHomes - منصة عقارات فاخرة</h3>
+                <p class="text-muted small mb-3">موقع تسويق عقاري تفاعلي يحتوي محرك تصفية وتصاميم متجاوبة.</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">HTML5</span>
+                  <span class="portfolio-tag">CSS3</span>
+                  <span class="portfolio-tag">Bootstrap 5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/whatisfordinner-project-image.png" alt="What's For Dinner App" />
+                <span class="portfolio-badge">تطبيق</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">What's For Dinner - مكتشف الوجبات</h3>
+                <p class="text-muted small mb-3">تطبيق تفاعلي لاقتراح وصفات الطعام والوجبات اليومية بناءً على المكونات.
+                </p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">JavaScript</span>
+                  <span class="portfolio-tag">Bootstrap 5</span>
+                  <span class="portfolio-tag">HTML5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="app">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/smartcontactmanager-project-image.png" alt="ContactHub Manager" />
+                <span class="portfolio-badge">تطبيق</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">ContactHub - مدير الاتصالات</h3>
+                <p class="text-muted small mb-3">تطبيق إدارة جهات الاتصال الذكي مع دعم البحث الفوري وتخزين LocalStorage.
+                </p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">Vanilla JS</span>
+                  <span class="portfolio-tag">LocalStorage</span>
+                  <span class="portfolio-tag">Bootstrap 5</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="web">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/golden-clutch-project-image.png" alt="Golden Clutch Chicken" />
+                <span class="portfolio-badge">موقع ويب</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">Golden Clutch - موقع وجبات رياضية</h3>
+                <p class="text-muted small mb-3">تطبيق ويب تفاعلي لمطعم وجبات مع حركات خفيفة وسلة شراء متطورة.</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">JavaScript</span>
+                  <span class="portfolio-tag">HTML5 Canvas</span>
+                  <span class="portfolio-tag">GSAP</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 portfolio-item" data-category="ai">
+            <div class="custom-card h-100 overflow-hidden">
+              <div class="portfolio-img-wrapper">
+                <img src="images/smart-rag-project-image.png" alt="AI RAG Engine" />
+                <span class="portfolio-badge">ذكاء اصطناعي</span>
+              </div>
+              <div class="portfolio-card-body">
+                <h3 class="h5 fw-bold mb-2">محرك المعرفة والذكاء الاصطناعي (RAG)</h3>
+                <p class="text-muted small mb-3">نظام استرجاع معلومات ذكي من المستندات بـ LangChain و FAISS.</p>
+                <div class="d-flex flex-wrap gap-1">
+                  <span class="portfolio-tag">Python</span>
+                  <span class="portfolio-tag">LangChain</span>
+                  <span class="portfolio-tag">FAISS</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Experience Section -->
+    <section id="experience" class="py-5">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-subtitle">مسيرتي المهنية</span>
+          <h2 class="section-title">الخبرة <span class="text-gradient">العملية</span></h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-container timeline-left">
+            <div class="timeline-content">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-primary px-3 py-2">أغسطس 2026 - سبتمبر 2026</span>
+                <i class="fa-solid fa-vial fs-4 text-primary"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-1">متدربة اختبار برمجيات (Software Testing)</h3>
+              <h4 class="h6 text-primary fw-bold mb-2">معهد تكنولوجيا المعلومات (ITI)</h4>
+              <p class="text-muted small mb-0">تنفيذ إجراءات اختبار البرمجيات واكتشاف الأخطاء وفقاً لمفاهيم الجودة.</p>
+            </div>
+          </div>
+
+          <div class="timeline-container timeline-right">
+            <div class="timeline-content">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <i class="fa-solid fa-code fs-4 text-secondary"></i>
+                <span class="badge bg-secondary px-3 py-2">يونيو 2026 - الحالي</span>
+              </div>
+              <h3 class="h5 fw-bold mb-1">دبلومة تطوير الواجهات الأمامية</h3>
+              <h4 class="h6 text-secondary fw-bold mb-2">أكاديمية روت (Route Academy)</h4>
+              <p class="text-muted small mb-0">تدريب عملي مكثف على React.js و JavaScript و HTML5/CSS3 و Bootstrap و
+                TypeScript.</p>
+            </div>
+          </div>
+
+          <div class="timeline-container timeline-left">
+            <div class="timeline-content">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-danger px-3 py-2">يونيو 2026 - يوليو 2026</span>
+                <i class="fa-brands fa-figma fs-4 text-danger"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-1">متدربة تصميم UI/UX</h3>
+              <h4 class="h6 text-danger fw-bold mb-2">شركة SyntecxHub</h4>
+              <p class="text-muted small mb-0">تصميم وتطوير 4 مشاريع واجهات مستخدم عالية الدقة وإنشاء نماذج تفاعلية في
+                Figma.</p>
+            </div>
+          </div>
+
+          <div class="timeline-container timeline-right">
+            <div class="timeline-content">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <i class="fa-solid fa-brain fs-4 text-primary"></i>
+                <span class="badge bg-primary px-3 py-2">يونيو 2026 - يوليو 2026</span>
+              </div>
+              <h3 class="h5 fw-bold mb-1">متدربة ذكاء اصطناعي (AI Intern)</h3>
+              <h4 class="h6 text-primary fw-bold mb-2">شركة Decode Labs</h4>
+              <p class="text-muted small mb-0">تطوير وتطبيق حلول معالجة اللغات الطبيعية NLP وخوارزميات الذكاء الاصطناعي.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-container timeline-left">
+            <div class="timeline-content">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-success px-3 py-2">مايو 2026 - يوليو 2026</span>
+                <i class="fa-solid fa-globe fs-4 text-success"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-1">برنامج تطوير الويب (Full-Stack)</h3>
+              <h4 class="h6 text-success fw-bold mb-2">شركة Zidio Development</h4>
+              <p class="text-muted small mb-0">بناء وتطوير تطبيقات ويب حقيقية ومشاريع متكاملة مع ربط REST APIs.</p>
+            </div>
+          </div>
+
+          <div class="timeline-container timeline-right">
+            <div class="timeline-content">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <i class="fa-solid fa-lightbulb fs-4 text-warning"></i>
+                <span class="badge bg-warning text-dark px-3 py-2">ديسمبر 2025 - فبراير 2026</span>
+              </div>
+              <h3 class="h5 fw-bold mb-1">برنامج الذكاء الاصطناعي التوليدي</h3>
+              <h4 class="h6 text-warning fw-bold mb-2">شركة Tips Hindawi</h4>
+              <p class="text-muted small mb-0">دراسة وتطبيق مفاهيم Generative AI والهندسة الفورية Prompt Engineering.
+              </p>
+            </div>
+          </div>
+
+          <div class="timeline-container timeline-left">
+            <div class="timeline-content">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <span class="badge bg-info px-3 py-2">يوليو - أغسطس 2025</span>
+                <i class="fa-solid fa-laptop fs-4 text-info"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-1">متدربة تقنية معلومات (IT Intern)</h3>
+              <h4 class="h6 text-info fw-bold mb-2">شركة SASEC الاستشارية</h4>
+              <p class="text-muted small mb-0">تدريب تقني على الأنظمة الهندسية والاستشارات البرمجية.</p>
+            </div>
+          </div>
+
+          <div class="timeline-container timeline-right">
+            <div class="timeline-content">
+              <div class="d-flex justify-content-between align-items-center mb-2">
+                <i class="fa-solid fa-industry fs-4 text-primary"></i>
+                <span class="badge bg-primary px-3 py-2">سبتمبر 2024</span>
+              </div>
+              <h3 class="h5 fw-bold mb-1">متدربة تقنية المعلومات الصناعية</h3>
+              <h4 class="h6 text-primary fw-bold mb-2">شركة أموك (AMOC)</h4>
+              <p class="text-muted small mb-0">متابعة أنظمة التحكم الصناعية وتحليل البيانات التقنية لرفع كفاءة الأداء.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row g-4 mt-5 text-center">
+          <div class="col-md-4">
+            <div class="custom-card p-4 equal-height-card">
+              <div class="navbar-brand-icon mx-auto mb-3">
+                <i class="fa-solid fa-award"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-2">شهادات معتمدة</h3>
+              <p class="text-muted small mb-0">تدريبات متقدمة واختبارات ISTQB وإنجازات أكاديمية بجامعة E-JUST.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="custom-card p-4 equal-height-card">
+              <div class="navbar-brand-icon mx-auto mb-3 bg-gradient-accent">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-2">فرق العمل</h3>
+              <p class="text-muted small mb-0">خبرة واسعة في التعاون والعمل الجاد ضمن فرق متعددة التخصصات.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="custom-card p-4 equal-height-card">
+              <div class="navbar-brand-icon mx-auto mb-3 bg-success text-white">
+                <i class="fa-solid fa-lightbulb"></i>
+              </div>
+              <h3 class="h5 fw-bold mb-2">الابتكار والحلول</h3>
+              <p class="text-muted small mb-0">البحث المستمر عن أفضل الأساليب التقنية لبناء كود أنيق وسريع.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 6. Testimonials Section -->
+    <section id="testimonials" class="py-5 bg-surface-alt">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-subtitle">آراء العملاء</span>
+          <h2 class="section-title">ماذا يقول <span class="text-gradient">العملاء والشركاء</span></h2>
+          <div class="title-line"></div>
+        </div>
+
+        <div class="testimonials-wrapper">
+          <button id="prev-testimonial-btn" class="carousel-nav-btn carousel-prev" aria-label="السابق">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+          <button id="next-testimonial-btn" class="carousel-nav-btn carousel-next" aria-label="التالي">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+
+          <div class="testimonial-card-item active">
+            <div class="testimonial-box">
+              <img src="images/avatar-1.webp" alt="أحمد السعيد" class="testimonial-avatar" />
+              <h3 class="h5 fw-bold mb-1">م. أحمد السعيد</h3>
+              <p class="text-muted small mb-3">مدير مشاريع بشركة تقنية</p>
+              <div class="text-warning mb-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="fst-italic text-secondary fs-5 mb-0">
+                "المهندسة مريم قامت بتسليم نظام LMS متكامل بجودة ممتازة ودقة عالية. التزام رائع بالمواعيد وكود برمجي
+                منظم جداً."
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-card-item">
+            <div class="testimonial-box">
+              <img src="images/avatar-2.webp" alt="سيف أسامة" class="testimonial-avatar" />
+              <h3 class="h5 fw-bold mb-1">سيف أسامة</h3>
+              <p class="text-muted small mb-3">مؤسس شركة ناشئة</p>
+              <div class="text-warning mb-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="fst-italic text-secondary fs-5 mb-0">
+                "تطبيق CareSync الذي طورته مريم ساعدنا في تنظيم العمل بمرونة وسهولة. سرعة البديهة والمهارة البرمجية
+                لديها مبهرة حقاً."
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-card-item">
+            <div class="testimonial-box">
+              <img src="images/avatar-3.webp" alt="د. خالد صلاح" class="testimonial-avatar" />
+              <h3 class="h5 fw-bold mb-1">د. خالد صلاح</h3>
+              <p class="text-muted small mb-3">استشاري ذكاء اصطناعي</p>
+              <div class="text-warning mb-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="fst-italic text-secondary fs-5 mb-0">
+                "حلول الـ AI التي قدمتها مريم في مشروع IntellMeet تعكس فهمها العميق للأنظمة الذكية وربط خوارزميات
+                LangChain بشكل مبسط."
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-card-item">
+            <div class="testimonial-box">
+              <img src="images/avatar-4.webp" alt="أحمد الرفاعي" class="testimonial-avatar" />
+              <h3 class="h5 fw-bold mb-1">أحمد الرفاعي</h3>
+              <p class="text-muted small mb-3">مصمم UI/UX أول</p>
+              <div class="text-warning mb-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="fst-italic text-secondary fs-5 mb-0">
+                "لدى مريم حاسّة تصميمية متميزة تجعلها تترجم ملفات Figma إلى واجهات ويب حية وبدقة متناهية. تجربة تعامل
+                ممتازة."
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-card-item">
+            <div class="testimonial-box">
+              <img src="images/avatar-5.webp" alt="عمر عادل" class="testimonial-avatar" />
+              <h3 class="h5 fw-bold mb-1">عمر عادل</h3>
+              <p class="text-muted small mb-3">مطور برمجيات متقدم</p>
+              <div class="text-warning mb-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="fst-italic text-secondary fs-5 mb-0">
+                "مشاركتي مع مريم في التدريبات أثبتت تميزها في حل المشكلات التقنية وكتابة كود أنيق وسهل الصيانة."
+              </p>
+            </div>
+          </div>
+
+          <div class="testimonial-card-item">
+            <div class="testimonial-box">
+              <img src="images/avatar-6.webp" alt="د. كريم ياسر" class="testimonial-avatar" />
+              <h3 class="h5 fw-bold mb-1">د. كريم ياسر</h3>
+              <p class="text-muted small mb-3">مشرف أكاديمي</p>
+              <div class="text-warning mb-3">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <p class="fst-italic text-secondary fs-5 mb-0">
+                "مريم من أفضل الطلاب أداءً في جامعة E-JUST، شغوفة بالبحث المستمر والتطوير التقني وتطبيق أفضل الممارسات."
+              </p>
+            </div>
+          </div>
+
+          <div id="carousel-dots-container" class="carousel-indicators-dots"></div>
+        </div>
+
+        <div class="custom-card p-5 mt-5 text-center bg-gradient-primary">
+          <h3 class="h2 fw-bold text-white mb-3">جاهز تبدأ مشروعك؟</h3>
+          <p class="lead text-white-50 mb-4 max-w-xl mx-auto">يلا نشتغل سوا عشان نحول أفكارك لواقع مبهر</p>
+          <a href="#contact" class="btn btn-lg bg-white text-primary rounded-pill px-5 py-3 font-bold shadow">
+            تواصل معي الآن
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 7. Statistics Section -->
+    <section id="statistics-section" class="py-5">
+      <div class="container">
+        <div class="row g-4 text-center">
+          <div class="col-6 col-md-3">
+            <div class="custom-card p-4">
+              <div class="stat-icon-box">
+                <i class="fa-solid fa-project-diagram"></i>
+              </div>
+              <div class="stat-value">13+</div>
+              <p class="text-muted small mb-0 font-bold">مشروع مكتمل</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="custom-card p-4">
+              <div class="stat-icon-box stat-icon-box-2">
+                <i class="fa-solid fa-users"></i>
+              </div>
+              <div class="stat-value">10+</div>
+              <p class="text-muted small mb-0 font-bold">عميل سعيد</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="custom-card p-4">
+              <div class="stat-icon-box stat-icon-box-3">
+                <i class="fa-solid fa-clock"></i>
+              </div>
+              <div class="stat-value">4+</div>
+              <p class="text-muted small mb-0 font-bold">سنوات خبرة</p>
+            </div>
+          </div>
+
+          <div class="col-6 col-md-3">
+            <div class="custom-card p-4">
+              <div class="stat-icon-box">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <div class="stat-value">8+</div>
+              <p class="text-muted small mb-0 font-bold">تدريبات وجوائز</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 8. Contact Section -->
+    <section id="contact" class="py-5 bg-surface-alt">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-subtitle">تواصل معي</span>
+          <h2 class="section-title">يلا نبدأ <span class="text-gradient">مشروعك</span></h2>
+          <div class="title-line"></div>
+          <p class="text-muted lead max-w-xl mx-auto mb-5">عندك فكرة مشروع؟ تعالى نتكلم ونحولها لواقع</p>
+        </div>
+
+        <div class="row g-4">
+          <div class="col-lg-5">
+            <div class="custom-card p-4 mb-3 d-flex align-items-center gap-3">
+              <div class="navbar-brand-icon">
+                <i class="fa-solid fa-envelope"></i>
+              </div>
+              <div>
+                <h3 class="h6 fw-bold text-muted mb-1">البريد الإلكتروني</h3>
+                <a href="mailto:maryamgamal188@gmail.com" class="fs-6 font-bold text-decoration-none text-primary">
+                  maryamgamal188@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div class="custom-card p-4 mb-3 d-flex align-items-center gap-3">
+              <div class="navbar-brand-icon bg-gradient-accent">
+                <i class="fa-solid fa-phone"></i>
+              </div>
+              <div>
+                <h3 class="h6 fw-bold text-muted mb-1">رقم الهاتف</h3>
+                <a href="tel:+201280873442" class="fs-6 font-bold text-decoration-none text-primary" dir="ltr">
+                  +20 128 087 3442
+                </a>
+              </div>
+            </div>
+
+            <div class="custom-card p-4 mb-3 d-flex align-items-center gap-3">
+              <div class="navbar-brand-icon bg-success">
+                <i class="fa-solid fa-location-dot"></i>
+              </div>
+              <div>
+                <h3 class="h6 fw-bold text-muted mb-1">الموقع الجغرافي</h3>
+                <p class="fs-6 font-bold mb-0 text-secondary">الإسكندرية، مصر</p>
+              </div>
+            </div>
+
+            <div class="custom-card p-4">
+              <h3 class="h6 fw-bold mb-3">تابعني على</h3>
+              <div class="d-flex gap-2">
+                <a href="https://github.com/mariammgamall" target="_blank" rel="noopener"
+                  class="btn btn-outline-primary rounded-circle" title="GitHub">
+                  <i class="fa-brands fa-github fs-5"></i>
+                </a>
+                <a href="https://linkedin.com/in/mariam-gamal-3b2408281" target="_blank" rel="noopener"
+                  class="btn btn-outline-primary rounded-circle" title="LinkedIn">
+                  <i class="fa-brands fa-linkedin-in fs-5"></i>
+                </a>
+                <a href="mailto:maryamgamal188@gmail.com" class="btn btn-outline-primary rounded-circle" title="Email">
+                  <i class="fa-solid fa-envelope fs-5"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="custom-card p-4 p-md-5">
+              <form id="contact-form">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label class="form-label font-bold small">الاسم الكامل</label>
+                    <input type="text" class="form-control form-control-custom" placeholder="أدخل اسمك الكامل"
+                      required />
+                  </div>
+                  <div class="col-md-6">
+                    <label class="form-label font-bold small">البريد الإلكتروني</label>
+                    <input type="email" class="form-control form-control-custom" placeholder="example@email.com"
+                      required />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label font-bold small">رقم الهاتف</label>
+                    <input type="tel" class="form-control form-control-custom" placeholder="+20 12 XXXX XXXX" />
+                  </div>
+                  <div class="col-12">
+                    <label class="form-label font-bold small">تفاصيل المشروع</label>
+                    <textarea class="form-control form-control-custom" rows="4" style="resize: none !important;"
+                      placeholder="احكيلي تفاصيل مشروعك..." required></textarea>
+                  </div>
+                  <div class="col-12 mt-4">
+                    <button type="submit"
+                      class="btn btn-lg bg-gradient-primary rounded-pill w-100 py-3 font-bold shadow">
+                      <i class="fa-solid fa-paper-plane me-2"></i> ابعت الرسالة
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Customization Sidebar -->
+  <button id="sidebar-toggle-btn" class="sidebar-toggle-btn" aria-label="تخصيص المظهر" title="تخصيص المظهر">
+    <i class="fa-solid fa-gear"></i>
+  </button>
+
+  <div id="customization-sidebar" class="customization-sidebar">
+    <div class="sidebar-header">
+      <h3 class="h5 fw-bold mb-0">
+        <i class="fa-solid fa-sliders text-primary me-2"></i> تخصيص المظهر
+      </h3>
+      <button id="sidebar-close-btn" class="sidebar-close-btn" aria-label="إغلاق">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+    </div>
+
+    <div class="sidebar-body">
+      <div class="mb-4">
+        <h4 class="h6 fw-bold text-muted mb-3">لون الثيم</h4>
+        <div class="d-flex gap-3 flex-wrap">
+          <button class="color-option-btn active" style="background: linear-gradient(135deg, #6366f1, #8b5cf6);"
+            data-primary="#6366f1" data-secondary="#8b5cf6" title="بنفسجي إنديجو"></button>
+          <button class="color-option-btn" style="background: linear-gradient(135deg, #0d9488, #10b981);"
+            data-primary="#0d9488" data-secondary="#10b981" title="أخضر زمردي"></button>
+          <button class="color-option-btn" style="background: linear-gradient(135deg, #e11d48, #ec4899);"
+            data-primary="#e11d48" data-secondary="#ec4899" title="وردي وردي"></button>
+          <button class="color-option-btn" style="background: linear-gradient(135deg, #d97706, #f97316);"
+            data-primary="#d97706" data-secondary="#f97316" title="برتقالي دافئ"></button>
+          <button class="color-option-btn" style="background: linear-gradient(135deg, #0284c7, #3b82f6);"
+            data-primary="#0284c7" data-secondary="#3b82f6" title="أزرق سماوي"></button>
+        </div>
+      </div>
+
+      <hr class="my-4 text-muted" />
+
+      <div class="mb-4">
+        <h4 class="h6 fw-bold text-muted mb-3">نوع الخط</h4>
+        <button class="font-option-btn active font-tajawal" data-font="'Tajawal', sans-serif">
+          Tajawal (الافتراضي)
+        </button>
+        <button class="font-option-btn font-cairo" data-font="'Cairo', sans-serif">
+          Cairo
+        </button>
+        <button class="font-option-btn font-alexandria" data-font="'Alexandria', sans-serif">
+          Alexandria
+        </button>
+        <button class="font-option-btn font-outfit" data-font="'Outfit', sans-serif">
+          Outfit
+        </button>
+        <button class="font-option-btn font-inter" data-font="'Inter', sans-serif">
+          Inter
+        </button>
+      </div>
+
+      <hr class="my-4 text-muted" />
+
+      <button id="reset-settings-btn" class="btn btn-outline-danger w-100 font-bold rounded-pill">
+        <i class="fa-solid fa-rotate-right me-2"></i> إعادة الضبط
+      </button>
+    </div>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button id="scroll-top-btn" class="scroll-top-btn" aria-label="العودة للأعلى" title="العودة للأعلى">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Footer matching original reference site -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row gy-4 align-items-start text-center">
+        <!-- Column 1: Brand & Bio -->
+        <div class="col-lg-4">
+          <a class="navbar-brand d-inline-flex align-items-center justify-content-center gap-2 font-bold mb-3"
+            href="#hero-section">
+            <div class="navbar-brand-icon">
+              <i class="fa-solid fa-code text-white"></i>
+            </div>
+            <span class="fs-4 fw-extrabold text-gradient">مريم جمال</span>
+          </a>
+          <p class="text-secondary small mb-0 max-w-sm mx-auto">
+            مهندسة حاسبات ومطورة ذكاء اصطناعي بحول الأفكار لواقع رقمي مميز وبناء تطبيقات ويب متقدمة.
+          </p>
+        </div>
+
+        <!-- Column 2: Quick Links -->
+        <div class="col-lg-2 col-6">
+          <h4 class="h6 fw-bold mb-3 text-primary">روابط سريعة</h4>
+          <ul class="list-unstyled space-y-2 text-secondary small mb-0">
+            <li class="mb-2"><a href="#hero-section" class="footer-link">الرئيسية</a></li>
+            <li class="mb-2"><a href="#about" class="footer-link">عني</a></li>
+            <li class="mb-2"><a href="#portfolio" class="footer-link">الأعمال</a></li>
+            <li class="mb-2"><a href="#experience" class="footer-link">الخبرة</a></li>
+            <li class="mb-2"><a href="#testimonials" class="footer-link">التوصيات</a></li>
+            <li class="mb-2"><a href="#contact" class="footer-link">تواصل</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3: Services -->
+        <div class="col-lg-3 col-6">
+          <h4 class="h6 fw-bold mb-3 text-primary">خدماتي</h4>
+          <ul class="list-unstyled space-y-2 text-secondary small mb-0">
+            <li class="mb-2">تطوير تطبيقات الويب</li>
+            <li class="mb-2">تصميم واجهات المستخدم</li>
+            <li class="mb-2">حلول وبناء نماذج AI</li>
+            <li class="mb-2">تحسين أداء وسرعة المواقع</li>
+          </ul>
+        </div>
+
+        <!-- Column 4: Contact Info -->
+        <div class="col-lg-3">
+          <h4 class="h6 fw-bold mb-3 text-primary">تواصل معي</h4>
+          <ul class="list-unstyled text-secondary small mb-3 d-inline-flex flex-column align-items-start gap-2">
+            <li class="d-flex align-items-center gap-2">
+              <i class="fa-solid fa-envelope text-primary"></i>
+              <a href="mailto:maryamgamal188@gmail.com" class="footer-link" dir="ltr">maryamgamal188@gmail.com</a>
+            </li>
+            <li class="d-flex align-items-center gap-2">
+              <i class="fa-solid fa-phone text-primary"></i>
+              <a href="tel:+201280873442" class="footer-link" dir="ltr">+20 128 087 3442</a>
+            </li>
+            <li class="d-flex align-items-center gap-2">
+              <i class="fa-solid fa-location-dot text-primary"></i>
+              <span>الإسكندرية، مصر</span>
+            </li>
+          </ul>
+          <div class="d-flex justify-content-center gap-2">
+            <a href="https://github.com/mariammgamall" target="_blank" rel="noopener"
+              class="btn btn-sm btn-outline-primary rounded-circle">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com/in/mariam-gamal-3b2408281" target="_blank" rel="noopener"
+              class="btn btn-sm btn-outline-primary rounded-circle">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:maryamgamal188@gmail.com" class="btn btn-sm btn-outline-primary rounded-circle">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <hr class="my-4 text-muted opacity-25" />
+
+      <div class="text-center">
+        <p class="text-secondary small mb-0">
+          &copy; 2026 جميع الحقوق محفوظة لـ <strong>مريم جمال</strong>.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="JS/bootstrap.bundle.min.js"></script>
+  <script src="JS/index.js"></script>
+</body>
+
+</html>
