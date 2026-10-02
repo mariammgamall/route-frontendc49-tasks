@@ -61,7 +61,7 @@ Developed as a project for the **Route IT Training Center** (Frontend Diploma C4
 ## 📁 Repository Structure
 
 ```text
-Task 1-personal-portfolio-html/
+Task 01-personal-portfolio-html/
 ├── images/
 │   ├── facebook.svg       # Facebook icon SVG
 │   ├── github.svg         # GitHub icon SVG
@@ -104,7 +104,7 @@ To view and test this project, all you need is a modern web browser:
 
 2. **Navigate to the project folder:**
    ```bash
-   cd route-frontendc49-tasks/"Task 1-personal-portfolio-html"
+   cd route-frontendc49-tasks/"Task 01-personal-portfolio-html"
    ```
 
 3. **Open `index.html`:**

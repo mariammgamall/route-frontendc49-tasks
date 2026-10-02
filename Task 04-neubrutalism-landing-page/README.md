@@ -90,7 +90,7 @@ To view or work with the project locally:
    ```
 2. Navigate into the project folder:
    ```bash
-   cd route-frontendc49-tasks/"Task 4-neubrutalism-landing-page"
+   cd route-frontendc49-tasks/"Task 04-neubrutalism-landing-page"
    ```
 3. Open `index.html` directly in any web browser.
 

@@ -101,7 +101,7 @@
 ## 📁 Project Structure
 
 ```text
-Task 9-smart-contact-manager/
+Task 09-smart-contact-manager/
 │
 ├── CSS/
 │   ├── all.min.css            # FontAwesome CSS

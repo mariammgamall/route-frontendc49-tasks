@@ -126,7 +126,7 @@ drone-product-landing-page/
 
 2. **Navigate to the project folder:**
    ```bash
-   cd route-frontendc49-tasks/"Task 3-drone-product-landing-page"
+   cd route-frontendc49-tasks/"Task 03-drone-product-landing-page"
    ```
 
 3. **Open `index.html`:**

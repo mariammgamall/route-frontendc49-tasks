@@ -113,7 +113,7 @@ fitcore-gym-landing-page/
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd route-frontendc49-tasks/"Task 2-fitcore-gym-landing-page"
+   cd route-frontendc49-tasks/"Task 02-fitcore-gym-landing-page"
    ```
 3. **Open in browser:**
    Double-click `index.html` or use **Live Server** extension in VS Code.

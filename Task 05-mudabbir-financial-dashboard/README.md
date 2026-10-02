@@ -80,7 +80,7 @@
 1. Clone or download the repository:
    ```bash
    git clone https://github.com/mariammgamall/route-frontendc49-tasks.git
-   cd route-frontendc49-tasks/"Task 5-mudabbir-financial-dashboard"
+   cd route-frontendc49-tasks/"Task 05-mudabbir-financial-dashboard"
    ```
 
 2. Open `index.html` directly in any web browser, or start a local HTTP server:

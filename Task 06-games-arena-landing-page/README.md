@@ -111,7 +111,7 @@ Check out the live deployed site here:
 ## 📁 Project Structure
 
 ```ascii
-Task 6-games-arena-landing-page/
+Task 06-games-arena-landing-page/
 ├── css/
 │   └── style.css            # Core stylesheet (variables, keyframes, pure CSS slider & drawer)
 ├── images/                  # High-resolution gaming assets, logos, avatars, and UI graphics
@@ -171,7 +171,7 @@ No node packages or build tools are required! All dependencies are loaded via fa
    ```
 2. **Navigate** into the project directory:
    ```bash
-   cd route-frontendc49-tasks/"Task 6-games-arena-landing-page"
+   cd route-frontendc49-tasks/"Task 06-games-arena-landing-page"
    ```
 3. **Open `index.html`** directly in any web browser, or launch using VS Code **Live Server**.
 

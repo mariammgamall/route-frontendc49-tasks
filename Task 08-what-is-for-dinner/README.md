@@ -95,7 +95,7 @@ function getRandomRecipe() {
 ## 📂 Project Directory Structure
 
 ```text
-Task 8-what-is-for-dinner/
+Task 08-what-is-for-dinner/
 ├── CSS/
 │   ├── all.min.css              # FontAwesome 6 Icons
 │   ├── bootstrap.min.css        # Bootstrap 5 Framework
